@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="layui/css/layui.css?t=20180530-2" media="all">
+</head>
+<body>
+<div id="app"></div>
+<script src="layui/layui.js"></script>
+
+<script>
+    //声明模块和回调函数
+    layui.use(['layer','form'], function () {
+        //将模块中的变量引用出来，用变量保存
+        var layer = layui.layer,form = layui.form;
+    });
+
+</script>
+
+<i class="layui-icon layui-anim layui-anim-scaleSpring">&#xe60c;</i>
+</body>
+
+<!-- 让IE8/9支持媒体查询，从而兼容栅格 -->
+<!--[if lt IE 9]>
+<script src="nepadmin/ie8hack/html5shiv.min.js"></script>
+<script src="nepadmin/ie8hack/respond.min.js"></script>
+<script src="nepadmin/ie8hack/placeholders.min.js"></script>
+<![endif]-->
+</html>
